@@ -5,7 +5,7 @@ git add two.txt
 git add three.txt
 rm two.txt
 git checkout two.txt
-git commit -m "i added three text files and deleted the second one and then re added it"
+git commit -m "added three file, deleted one, restored it"
 git config --list 
 git remote add subm https://github.com/EsraaATEFibrahim/subm.git
 git push subm master
@@ -16,7 +16,7 @@ git push subm master
 git branch ReadMe
 git checkout ReadMe 
 git add README.md
-git commit -m "this is new" 
+git commit -m "not gonna push it this time" 
 
 git checkout master
 git merge ReadMe
